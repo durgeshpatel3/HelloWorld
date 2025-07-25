@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Serial Communication Settings">
+
+        <ListPreference
+            android:key="baud_rate"
+            android:title="@string/baud_rate"
+            android:entries="@array/baud_rate_entries"
+            android:entryValues="@array/baud_rate_values"
+            android:defaultValue="115200"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:key="data_bits"
+            android:title="@string/data_bits"
+            android:entries="@array/data_bits_entries"
+            android:entryValues="@array/data_bits_values"
+            android:defaultValue="8"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:key="stop_bits"
+            android:title="@string/stop_bits"
+            android:entries="@array/stop_bits_entries"
+            android:entryValues="@array/stop_bits_values"
+            android:defaultValue="1"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:key="parity"
+            android:title="@string/parity"
+            android:entries="@array/parity_entries"
+            android:entryValues="@array/parity_values"
+            android:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:key="line_ending"
+            android:title="@string/line_ending"
+            android:entries="@array/line_ending_entries"
+            android:entryValues="@array/line_ending_values"
+            android:defaultValue="crlf"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Connection Settings">
+
+        <SwitchPreferenceCompat
+            android:key="auto_connect"
+            android:title="@string/auto_connect"
+            android:summary="@string/auto_connect_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

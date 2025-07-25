@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USB Serial App</string>
+    
+    <!-- Main Activity -->
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="send_command">Send Command</string>
+    <string name="command_hint">Enter command…</string>
+    <string name="received_data">Received Data:</string>
+    <string name="sent_commands">Sent Commands:</string>
+    <string name="clear_log">Clear Log</string>
+    <string name="settings">Settings</string>
+    <string name="no_usb_device">No USB device found</string>
+    <string name="usb_permission_denied">USB permission denied</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Serial Settings</string>
+    <string name="baud_rate">Baud Rate</string>
+    <string name="data_bits">Data Bits</string>
+    <string name="stop_bits">Stop Bits</string>
+    <string name="parity">Parity</string>
+    <string name="flow_control">Flow Control</string>
+    <string name="line_ending">Line Ending</string>
+    <string name="auto_connect">Auto Connect</string>
+    <string name="auto_connect_summary">Automatically connect when USB device is attached</string>
+    
+    <!-- Baud Rate options -->
+    <string-array name="baud_rate_entries">
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>
+    </string-array>
+    
+    <string-array name="baud_rate_values">
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>
+    </string-array>
+    
+    <!-- Data Bits options -->
+    <string-array name="data_bits_entries">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    
+    <string-array name="data_bits_values">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    
+    <!-- Stop Bits options -->
+    <string-array name="stop_bits_entries">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="stop_bits_values">
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    
+    <!-- Parity options -->
+    <string-array name="parity_entries">
+        <item>None</item>
+        <item>Even</item>
+        <item>Odd</item>
+        <item>Mark</item>
+        <item>Space</item>
+    </string-array>
+    
+    <string-array name="parity_values">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+    <!-- Line Ending options -->
+    <string-array name="line_ending_entries">
+        <item>None</item>
+        <item>CR (\\r)</item>
+        <item>LF (\\n)</item>
+        <item>CR+LF (\\r\\n)</item>
+    </string-array>
+    
+    <string-array name="line_ending_values">
+        <item>none</item>
+        <item>cr</item>
+        <item>lf</item>
+        <item>crlf</item>
+    </string-array>
+    
+    <!-- Service -->
+    <string name="service_notification_title">USB Serial Service</string>
+    <string name="service_notification_text">Listening for serial data</string>
+</resources>

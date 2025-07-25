@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FTDI devices -->
+    <usb-device vendor-id="1027" />
+    
+    <!-- Prolific devices -->
+    <usb-device vendor-id="1659" />
+    
+    <!-- CH340/CH341 devices -->
+    <usb-device vendor-id="6790" />
+    
+    <!-- CP210x devices -->
+    <usb-device vendor-id="4292" />
+    
+    <!-- Arduino devices -->
+    <usb-device vendor-id="9025" />
+    <usb-device vendor-id="10755" />
+    
+    <!-- Generic CDC devices -->
+    <usb-device class="2" />
+</resources>
